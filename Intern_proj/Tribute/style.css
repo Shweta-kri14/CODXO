@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(237, 237, 221);
+}
+
+h1{
+    background-color: beige;
+    height: 90px;
+    width: auto;
+    padding-top: 27px;
+    color: brown;
+    text-align:center;
+    font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+.content{
+    display:flex;
+    font-size: 20px;
+    font-family:sans-serif;
+    font-style: italic;
+    padding: 20px;
+    margin-left: 500px;
+    margin-top: 50px;
+    text-align:left;
+    line-height: 28px;
+    
+    /* border: 5px solid black; */ 
+    /* height: auto; */
+    /* width: auto; */ 
+}
+.thought{
+    margin-left: 30px;
+    height: auto;
+    width: 400px;
+    font-size: smaller;
+    font-style: oblique;
+    margin-top:0px ;
+}
+div{
+    height: auto;
+    width: auto;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.image{
+    background-color: bisque;
+    
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 200px;
+    left: 30px;
+    border-radius: 50%;
+    border-color: whitesmoke;
+    border: 2px solid white;
+}
+img{
+    position: absolute;
+    height: 370px;
+    width: 400px;
+    top: 10px;
+    left: 20px;
+    border-radius: 50%;
+}
+
+.click{
+    border-radius: 7px;
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    background-color: rgba(128, 0, 0, 0.623);
+    color: aliceblue;
+    border-width: 4px;
+    
+}
+
+.press{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .dark-mode{
+    background-color: black;
+    color: white;
+} */
